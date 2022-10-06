@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link href="./views/styles.css" rel="stylesheet">
+    <!-- <link href="./views/styles.css" rel="stylesheet"> -->
+
+    <style>
+        tr:nth-child(2n+2) {
+            background: rgb(126, 119, 119);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-mynav">
+        <div class="container-fluid">
+            <h2>Books</h2>
+            <div class="p-2 d-highlight">
+                <a type="button" class="btn btn-secondary orientation" href="./menu.html">Voltar</a>
+                <button type="button" class="btn btn-secondarys orientation" onclick="showBookCreateBox()">Create</button>
+
+            </div>
+
+
+        </div>
+    </nav>
+
+    <!-- <div class="container">
+    </div> -->
+    <div class="container">
+        <div class="d-flex bd-highlight mb-3">
+            <div class="me-auto p-2 d-highlight">
+                <div class="dropdown">
+                    <button class="dropbtn btn btn-secondary">Search</button>
+                    <div id="searchDropdown" class="dropdown-content">
+                        <input type="text" placeholder="Search with title" id="myInput" onkeyup="filterFunction()">
+                    </div>
+                </div>
+
+
+                <div class="dropdown">
+                    <button onclick="sortFunction()" class="dropbtn btn btn-secondary">Sort by</button>
+                    <div id="sortDropdown" class="dropdown-content">
+                        <a onclick="loadTable('?sort=value&order=ASC')">Price: lowest to highest</a>
+                        <a onclick="loadTable('?sort=value&order=DESC')">Price: highest to lowest</a>
+                        <a onclick="loadTable('?sort=title&order=ASC')">Title</a>
+                        <a onclick="loadTable('?sort=Category')">Category</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+
+                        <th scope="col">#</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Author</th>
+                        <th scope="col">Publication year</th>
+                        <th scope="col">Pages</th>
+                        <th scope="col">Coin</th>
+                        <th scope="col">Value</th>
+                        <th scope="col">Format</th>
+                        <th scope="col">Categories</th>
+                        <th scope="col">Publication city</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="mytable">
+
+                    <tr>
+                        <th scope="row" colspan="5">Loading...</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./views/books/books.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- <a href="login.html" class="menu__item menu__item--active"></a> -->
+
+<!-- <nav class="navbar navbar-dark bg-mynav">
+                <div class="container-fluid">
+                     <a class="navbar-brand navbar-brand--black" href="index.html">Users</a>
+        
+                    <a class="navbar-brand navbar-brand--black" href="cities.html">Cities</a>
+                    <a class="navbar-brand navbar-brand--black" href="state.html">States</a>
+        
+                    <a class="navbar-brand navbar-brand--black" href="publishers.html">Publishers</a>
+                    <a class="navbar-brand navbar-brand--black" href="boocks.html">Boock</a>
+                    <a class="navbar-brand navbar-brand--black" href="categories.html">Categories</a>
+                    <a class="navbar-brand navbar-brand--black" href="format.html">Format</a> 
+                </div>
+            </nav> -->

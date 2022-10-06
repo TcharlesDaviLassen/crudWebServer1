@@ -1,0 +1,26 @@
+{"name":"myapp","hostname":"Usuario-PC","pid":10724,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:03:00.270Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":10408,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:19:01.486Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":7264,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:21:16.470Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":7264,"level":30,"msg":"Info de erro { query: {} }","time":"2022-09-15T16:21:16.471Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:23:39.544Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:23:45.111Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:26:02.107Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:26:06.213Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:29:18.108Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:29:39.469Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:30:12.694Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:30:23.785Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:30:37.580Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:30:58.855Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:34:32.009Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:34:36.993Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Info de erro { query: {} }","time":"2022-09-15T16:34:36.993Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:35:25.525Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Info de erro { query: {} }","time":"2022-09-15T16:35:25.525Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:36:30.492Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Info de erro { query: {} }","time":"2022-09-15T16:36:30.493Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:36:33.102Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:36:36.665Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:36:40.254Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:37:03.501Z","v":0}
+{"name":"myapp","hostname":"Usuario-PC","pid":1392,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2022-09-15T16:37:07.280Z","v":0}

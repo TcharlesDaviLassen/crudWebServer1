@@ -1,0 +1,135 @@
+body {
+
+    background-color: #272727;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+input:hover {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 100%;
+
+    background-color:rgb(198, 245, 228);
+}
+
+button {
+    background-color: rgb(255, 120, 30);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button:focus {
+    box-shadow: 0px 0px 10px 0.2px rgba(233, 126, 5, 0.726);
+}
+
+.biblio:hover{
+   color: rgba(233, 126, 5, 0.726);
+}
+
+h1.biblio{
+    margin-left: 1%;
+    font-size: 3rem;
+}
+
+/* .buttonLogin {
+    background-color: rgb(255, 120, 30);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+
+} */
+
+.login_btn:hover {
+    background-color: rgb(199, 96, 28);
+    cursor: pointer;
+}
+
+.login_btn {
+    background-color: #a35c00e0;
+}
+
+.buttonCasastrar:hover {
+    background-color: rgb(101, 12, 245);
+    cursor: pointer;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name-input:focus,
+.password-input:focus {
+    box-shadow: 0px 0px 10px 0.2px #fff;
+}
+
+.login {
+    position: relative;
+    position: fixed;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+
+    top: 50%;
+    left: 50%;
+    padding: 80px;
+    border-radius: 15px;
+}
+
+.buttonCasastrar {
+    background-color: rgb(54, 7, 182);
+    /* margin-top: 18px; */
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.buttonCasastrar:focus {
+    box-shadow: 0px 0px 10px 0.2px rgb(54, 7, 182);
+}
+
+
+.bi-eye-slash {
+    position: absolute;
+    top: 58%;
+    left: 72%;
+    cursor: pointer;
+    color: #000000;
+    font-size: 110%;
+}
+
+.swal2-styled,
+.swal2-confirm {
+    border: 0;
+    border-radius: 4.25em;
+    background: beige;
+    background-color: #1f12a7;
+    color: #fff;
+    font-size: 1em;
+    width: 30%;
+}
